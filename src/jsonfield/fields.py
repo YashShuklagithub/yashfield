@@ -108,3 +108,6 @@ class JSONField(JSONFieldMixin, models.TextField):
 
 class JSONCharField(JSONFieldMixin, models.CharField):
     """JSONCharField is a generic textfield that serializes/deserializes JSON objects"""
+
+def print1():
+    print("yash")
